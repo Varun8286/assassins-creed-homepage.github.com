@@ -1,0 +1,211 @@
+/* Universal Styles */
+
+* {
+  font-family: "PT Sans", sans-serif;
+  overflow-x: hidden;
+  font-size: 17px;
+  margin: 0;
+}
+
+body {
+  background-color: #06151f;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Header Styles */
+
+header {
+  z-index: 1;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  background: url('https://static-dm.akamaized.net/assassins-creed/valhalla/prod/ki_nav-bkg_ncsa.png');
+  background-repeat: no-repeat;
+}
+
+header img {
+  height: 44px;
+  padding-left: 20px;
+  padding-top: 6px;
+  float: left;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 20px;
+  transition: background 1s;
+}
+
+nav a {
+  font-family: 'PT Serif', serif;
+  text-transform: uppercase;
+  color: #40c1a6;
+  height: 100%;
+  transition: color 1s;
+}
+
+nav span:hover {
+  background-color: #40c1a6;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* Main Section Styles */
+
+main {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* About Section Styles */
+
+#about {
+  background-image: url("https://static-dm.akamaized.net/assassins-creed/valhalla/prod/ki_home-promo-personalization-bkg-mobile_ncsa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.content h2,
+h3,
+p {
+  text-align: left;
+  display: block;
+  position: relative;
+  bottom: 100px;
+  padding-left: 13px;
+}
+
+.content h2 {
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size: 2.3rem;
+  line-height: 0.7rem;
+  font-weight: 300;
+  text-shadow: 3px 5px 10px #000;
+}
+
+.content h3 {
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-shadow: 3px 5px 10px #000;
+}
+
+.content p {
+  opacity: 0.9;
+}
+
+.content img {
+  width: 100%;
+}
+
+/* Features Section Styles */
+
+#features h2 {
+  text-transform: uppercase;
+  color: #40c1a6;
+  text-decoration: underline;
+  font-size: 1.3em;
+  font-family: 'PT Serif', serif;
+}
+
+#features {
+  margin: auto;
+}
+
+.features-list {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.feature img {
+  height: 400px;
+  display: block;
+  margin: 10px;
+  width: 690px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.feature span {
+  display: block;
+  background-color: #f5f2d5;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 650px;
+  color: #121211;
+  font-family: 'PT Serif', serif;
+  padding: 20px;
+  position: relative;
+  bottom: 40px;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 7px #000;
+}
+
+/* Our Team Section Styles */
+
+.our-team-heading {
+  text-transform: uppercase;
+  color: #40c1a6;
+  text-decoration: underline;
+  font-size: 1.3em;
+  font-family: 'PT Serif', serif;
+}
+
+#team {
+  display: flex;
+  background-image: url('https://static-dm.akamaized.net/assassins-creed/valhalla/prod/ki_home-promo-personalization-bkg-mobile_ncsa.png');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.team-member {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.team-member img {
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+}
+
+.team-member h4 {
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  text-shadow: 5px 5px 10px #000;
+}
+
+/* Footer Styles */
+
+footer {
+  margin: 15px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  font-size: 2em;
+}
